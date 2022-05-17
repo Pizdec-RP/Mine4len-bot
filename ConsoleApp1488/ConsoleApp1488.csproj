@@ -7,4 +7,38 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MineStat" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\..\Downloads\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib.Core">
+      <HintPath>..\..\..\..\Downloads\Ionic.Zlib.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet">
+      <HintPath>..\..\..\..\Desktop\McProtoNet-1.0.0\McProtoNet.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet.Geometry">
+      <HintPath>..\..\..\..\Desktop\McProtoNet-1.0.0\McProtoNet.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet.NBT">
+      <HintPath>..\..\..\..\Downloads\McProtoNet.NBT.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet.PacketRepository340">
+      <HintPath>..\..\..\..\Desktop\McProtoNet-1.0.0\McProtoNet.PacketRepository340.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet.PacketRepository754">
+      <HintPath>..\..\..\..\Desktop\McProtoNet-1.0.0\McProtoNet.PacketRepository754.dll</HintPath>
+    </Reference>
+    <Reference Include="McProtoNet.Utils">
+      <HintPath>..\..\..\..\Desktop\McProtoNet-1.0.0\McProtoNet.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>..\..\..\..\Downloads\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
